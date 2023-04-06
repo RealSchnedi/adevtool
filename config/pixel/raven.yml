@@ -1,8 +1,8 @@
 device:
   name: raven
 
-platform:
-  product_makefile: device/google/raviole/aosp_raven.mk
-
 includes:
   - snippets/2021.yml
+
+platform:
+  product_makefile: device/google/raviole/aosp_raven.mk

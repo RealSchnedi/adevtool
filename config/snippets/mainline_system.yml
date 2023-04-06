@@ -1,6 +1,3 @@
-includes:
-  - base.yml
-
 filters:
   files:
     match:
@@ -17,3 +14,6 @@ filters:
     prefix:
       - system/apex/
       - system_ext/apex/
+
+includes:
+  - base.yml

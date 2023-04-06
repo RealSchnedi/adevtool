@@ -1,17 +1,4 @@
 filters:
-  props:
-    match:
-      # GMS
-      - ro.opa.eligible_device
-      - ro.atrace.core.services
-      - ro.com.google.clientidbase
-      - ro.error.receiver.system.apps
-
-    prefix:
-      # Gboard
-      - ro.com.google.ime.
-      - ro.storage_manager.
-
   files:
     match:
       - product/app/arcore/arcore.apk
@@ -70,3 +57,14 @@ filters:
   overlay_values:
     substring:
       - com.google.android.gms
+
+  props:
+    match:
+      - ro.atrace.core.services
+      - ro.com.google.clientidbase
+      - ro.error.receiver.system.apps
+      - ro.opa.eligible_device
+
+    prefix:
+      - ro.com.google.ime.
+      - ro.storage_manager.
