@@ -88,6 +88,7 @@ filters:
       - product/app/Chrome/
       - product/app/PixelThemesStub
       - product/app/PixelWallpapers
+      - product/app/PrebuiltGoogleAdservicesTvp/
       - product/app/VZWAPNLib/
       - product/app/WallpapersBReel
       - product/etc/security/
