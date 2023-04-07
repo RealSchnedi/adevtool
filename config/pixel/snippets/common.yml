@@ -21,6 +21,7 @@ filters:
       - product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk
       - product/app/VoiceAccessPrebuilt/VoiceAccessPrebuilt.apk
       - product/etc/fonts_customization.xml
+      - product/etc/default-permissions/default-permissions_diagnostictool.xml
       - product/etc/permissions/com.android.omadm.service.xml
       - product/etc/permissions/com.android.sdm.plugins.connmo.xml
       - product/etc/permissions/com.android.sdm.plugins.dcmo.xml
