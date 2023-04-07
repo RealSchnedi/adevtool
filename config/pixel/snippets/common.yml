@@ -73,6 +73,7 @@ filters:
       - product/etc/security/
       - product/priv-app/Dreamliner
       - product/priv-app/GoogleCamera/
+      - product/priv-app/HealthConnectPrebuilt/
       - system/app/BluetoothMigrationForBeta3User/
       - system/app/GoogleBluetoothLegacyMigration/
       - system/etc/security/cacerts/
