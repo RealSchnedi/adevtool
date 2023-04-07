@@ -71,6 +71,7 @@ filters:
       - product/etc/security/
       - product/priv-app/Dreamliner
       - product/priv-app/GoogleCamera/
+      - system/etc/security/cacerts/
       - system_ext/priv-app/FactoryOtaPrebuilt/
       - system_ext/priv-app/TurboAdapter/
 
