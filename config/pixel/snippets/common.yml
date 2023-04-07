@@ -284,6 +284,7 @@ filters:
       - hardware/google/pixel-sepolicy/googlebattery
       - hardware/google/pixel-sepolicy/ramdump
       - hardware/google/pixel-sepolicy/sota_app/system_ext
+      - hardware/google/pixel-sepolicy/turbo_adapter
 
 includes:
   - ../../snippets/gms.yml
