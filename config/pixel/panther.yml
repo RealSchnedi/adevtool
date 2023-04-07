@@ -1,0 +1,13 @@
+device:
+  name: panther
+
+filters:
+  overlay_files:
+    match:
+      - HbmSVManager__auto_generated_rro_product.apk
+
+includes:
+  - snippets/2022.yml
+
+platform:
+  product_makefile: device/google/raviole/aosp_panther.mk

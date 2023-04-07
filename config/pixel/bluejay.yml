@@ -1,0 +1,13 @@
+device:
+  name: bluejay
+
+filters:
+  overlay_files:
+    match:
+      - HbmSVManager__auto_generated_rro_product.apk
+
+includes:
+  - snippets/2021.yml
+
+platform:
+  product_makefile: device/google/raviole/aosp_bluejay.mk

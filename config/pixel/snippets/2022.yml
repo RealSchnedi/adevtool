@@ -1,0 +1,26 @@
+filters:
+  dep_files:
+    match:
+      - vendor/lib/libOpenCL.so
+      - vendor/lib64/libOpenCL.so
+
+  partitions:
+    match:
+      - abl
+      - bl1
+      - bl2
+      - bl31
+      - gsa
+      - ldfw
+      - modem
+      - pbl
+      - tzsw
+      - vbmeta_system
+      - vbmeta_vendor
+
+includes:
+  - common.yml
+
+platform:
+  sepolicy_dirs:
+    - device/google/gs201-sepolicy

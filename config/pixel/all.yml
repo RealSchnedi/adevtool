@@ -1,9 +1,14 @@
 type: device-list
 
 devices:
+  - barbet.yml
+  - bluejay.yml
   - bramble.yml
+  - cheetah.yml
   - coral.yml
   - flame.yml
   - oriole.yml
+  - panther.yml
   - raven.yml
   - redfin.yml
+  - sunfish.yml
