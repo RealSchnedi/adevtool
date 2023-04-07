@@ -40,6 +40,7 @@ filters:
       - product/priv-app/Showcase/Showcase.apk
       - product/priv-app/ScribePrebuilt/ScribePrebuilt.apk
       - product/priv-app/TipsPrebuilt/TipsPrebuilt.apk
+      - product/priv-app/TurboPrebuilt/TurboPrebuilt.apk
       - system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
       - system_ext/app/Flipendo/Flipendo.apk
       - system_ext/etc/init/init.sota.rc
@@ -67,6 +68,7 @@ filters:
       - product/priv-app/Dreamliner
       - product/priv-app/GoogleCamera/
       - system_ext/priv-app/FactoryOtaPrebuilt/
+      - system_ext/priv-app/TurboAdapter/
 
   overlay_keys:
     match:
@@ -285,7 +287,6 @@ filters:
 includes:
   - ../../snippets/gms.yml
   - ../../snippets/mainline_system.yml
-  - turbo.yml
 
 platform:
   sepolicy_dirs:
