@@ -15,6 +15,7 @@ filters:
       - modem
       - pbl
       - tzsw
+      - vbmeta_system
       - vbmeta_vendor
 
 includes:
