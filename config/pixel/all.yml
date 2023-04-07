@@ -1,6 +1,9 @@
 type: device-list
 
-includes:
-  - 2019.yml
-  - 2020.yml
-  - 2021.yml
+devices:
+  - bramble.yml
+  - coral.yml
+  - flame.yml
+  - oriole.yml
+  - raven.yml
+  - redfin.yml
