@@ -62,6 +62,7 @@ filters:
       - system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk
       - system_ext/priv-app/YadaYada/YadaYada.apk
       - vendor/etc/default-permissions/default-permissions_talkback.xml
+      - vendor/etc/fstab.gs101-fips
 
     prefix:
       - product/tts/google/
