@@ -2,6 +2,10 @@ device:
   vendor: google_devices
 
 filters:
+  dep_files:
+    prefix:
+      - product/etc/CarrierSettings
+
   files:
     match:
       - product/app/DevicePolicyPrebuilt/DevicePolicyPrebuilt.apk
