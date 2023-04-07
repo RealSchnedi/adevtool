@@ -21,10 +21,22 @@ filters:
       - product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk
       - product/app/VoiceAccessPrebuilt/VoiceAccessPrebuilt.apk
       - product/etc/fonts_customization.xml
+      - product/etc/permissions/com.android.omadm.service.xml
+      - product/etc/permissions/com.android.sdm.plugins.connmo.xml
+      - product/etc/permissions/com.android.sdm.plugins.dcmo.xml
+      - product/etc/permissions/com.android.sdm.plugins.diagmon.xml
+      - product/etc/permissions/com.android.sdm.plugins.sprintdm.xml
+      - product/etc/permissions/com.android.sdm.plugins.usccdm.xml
+      - product/etc/permissions/com.customermobile.preload.vzw.xml
       - product/etc/permissions/com.google.android.apps.diagnosticstool.xml
       - product/etc/permissions/com.google.android.apps.dreamliner.xml
       - product/etc/permissions/com.google.android.hardwareinfo.xml
       - product/etc/permissions/com.google.android.odad.xml
+      - product/etc/permissions/com.google.omadm.trigger.xml
+      - product/etc/permissions/com.verizon.apn.xml
+      - product/etc/permissions/com.verizon.services.xml
+      - product/etc/permissions/features-verizon.xml
+      - product/etc/sysconfig/allowlist_com.android.omadm.service.xml
       - product/etc/sysconfig/dreamliner.xml
       - product/framework/libhwinfo.jar
       - product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk
@@ -49,7 +61,11 @@ filters:
       - system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
       - system_ext/app/Flipendo/Flipendo.apk
       - system_ext/etc/init/init.sota.rc
+      - system_ext/etc/permissions/com.android.omadm.radioconfig.xml
       - system_ext/etc/permissions/com.google.android.factoryota.xml
+      - system_ext/etc/permissions/com.verizon.llkagent.xml
+      - system_ext/etc/permissions/obdm_permissions.xml
+      - system_ext/etc/permissions/vzw_mvs_permissions.xml
       - system_ext/priv-app/FactoryOta/FactoryOta.apk
       - system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk
       - system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk
@@ -69,8 +85,13 @@ filters:
       - product/tts/google/
       - product/wallpaper/
       - product/app/PixelWallpapers
+      - product/app/VZWAPNLib/
       - product/app/WallpapersBReel
       - product/etc/security/
+      - product/priv-app/ConnMO/
+      - product/priv-app/DCMO/
+      - product/priv-app/DiagMon/
+      - product/priv-app/DMService/
       - product/priv-app/Dreamliner
       - product/priv-app/GoogleCamera/
       - product/priv-app/HealthConnectPrebuilt/
@@ -78,6 +99,7 @@ filters:
       - system/app/GoogleBluetoothLegacyMigration/
       - system/etc/security/cacerts/
       - system_ext/priv-app/FactoryOtaPrebuilt/
+      - system_ext/priv-app/MyVerizonServices/
       - system_ext/priv-app/TurboAdapter/
 
   overlay_keys:
@@ -184,6 +206,7 @@ filters:
       - android:string/config_helpIntent
       - android:string/config_helpPackage
       - com.android.managedprovisioning
+      - com.android.omadm.service
       - com.android.providers.settings
       - com.android.simappdialog
       - com.android.settings:bool/config_
@@ -207,6 +230,7 @@ filters:
       - com.google.android.cellbroadcastservice
       - com.google.android.documentsui
       - com.google.android.flipendo
+      - com.google.android.apps.scone
 
     regex:
       - '^com\.google\.android\.pixel\.setupwizard/PixelSetupWizard:string/setup_.+_font_family$'
