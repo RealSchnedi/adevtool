@@ -65,6 +65,7 @@ filters:
       - product/app/WallpapersBReel
       - product/etc/security/
       - product/priv-app/Dreamliner
+      - product/priv-app/GoogleCamera/
       - system_ext/priv-app/FactoryOtaPrebuilt/
 
   overlay_keys:
@@ -230,6 +231,7 @@ filters:
       - product/priv-app/EuiccGoogle/EuiccGoogle.apk
       - product/priv-app/FilesPrebuilt/FilesPrebuilt.apk
       - product/priv-app/GCS/GCS.apk
+      - product/priv-app/GoogleCamera/GoogleCamera.apk
       - product/priv-app/GoogleDialer/GoogleDialer.apk
       - product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk
       - product/priv-app/HelpRtcPrebuilt/HelpRtcPrebuilt.apk
@@ -283,7 +285,6 @@ filters:
 includes:
   - ../../snippets/gms.yml
   - ../../snippets/mainline_system.yml
-  - gcam.yml
   - turbo.yml
 
 platform:
