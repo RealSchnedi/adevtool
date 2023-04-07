@@ -86,6 +86,7 @@ filters:
       - product/tts/google/
       - product/wallpaper/
       - product/app/Chrome/
+      - product/app/PixelThemesStub
       - product/app/PixelWallpapers
       - product/app/VZWAPNLib/
       - product/app/WallpapersBReel
