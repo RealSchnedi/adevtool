@@ -41,6 +41,7 @@ filters:
       - product/priv-app/ScribePrebuilt/ScribePrebuilt.apk
       - product/priv-app/TipsPrebuilt/TipsPrebuilt.apk
       - system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
+      - system_ext/app/Flipendo/Flipendo.apk
       - system_ext/etc/init/init.sota.rc
       - system_ext/etc/permissions/com.google.android.factoryota.xml
       - system_ext/priv-app/FactoryOta/FactoryOta.apk
@@ -191,6 +192,7 @@ filters:
       - com.google.android.cellbroadcastreceiver
       - com.google.android.cellbroadcastservice
       - com.google.android.documentsui
+      - com.google.android.flipendo
 
     regex:
       - '^com\.google\.android\.pixel\.setupwizard/PixelSetupWizard:string/setup_.+_font_family$'
@@ -274,13 +276,13 @@ filters:
 
   sepolicy_dirs:
     match:
+      - hardware/google/pixel-sepolicy/flipendo
       - hardware/google/pixel-sepolicy/ramdump
       - hardware/google/pixel-sepolicy/sota_app/system_ext
 
 includes:
   - ../../snippets/gms.yml
   - ../../snippets/mainline_system.yml
-  - flipendo.yml
   - gcam.yml
   - turbo.yml
 
