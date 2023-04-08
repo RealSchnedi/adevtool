@@ -8,18 +8,6 @@ filters:
 
   files:
     match:
-      - product/app/DevicePolicyPrebuilt/DevicePolicyPrebuilt.apk
-      - product/app/DeviceStatisticsService/DeviceStatisticsService.apk
-      - product/app/DiagnosticsToolPrebuilt/DiagnosticsToolPrebuilt.apk
-      - product/app/MarkupGoogle/MarkupGoogle.apk
-      - product/app/MicropaperPrebuilt/MicropaperPrebuilt.apk
-      - product/app/NgaResources/NgaResources.apk
-      - product/app/PixelThemesStub/PixelThemesStub.apk
-      - product/app/PrebuiltGoogleTelemetryTvp/PrebuiltGoogleTelemetryTvp.apk
-      - product/app/SafetyRegulatoryInfo/SafetyRegulatoryInfo.apk
-      - product/app/SoundAmplifierPrebuilt/SoundAmplifierPrebuilt.apk
-      - product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk
-      - product/app/VoiceAccessPrebuilt/VoiceAccessPrebuilt.apk
       - product/etc/fonts_customization.xml
       - product/etc/default-permissions/default-permissions_diagnostictool.xml
       - product/etc/permissions/com.android.omadm.service.xml
@@ -39,72 +27,159 @@ filters:
       - product/etc/permissions/features-verizon.xml
       - product/etc/sysconfig/allowlist_com.android.omadm.service.xml
       - product/etc/sysconfig/dreamliner.xml
+      - product/framework/com.google.android.dialer.support.jar
       - product/framework/libhwinfo.jar
-      - product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk
-      - product/priv-app/BetaFeedback/BetaFeedback.apk
-      - product/priv-app/BetterBug/BetterBug.apk
-      - product/priv-app/CarrierMetrics/CarrierMetrics.apk
-      - product/priv-app/DiagnosticsToolPrebuilt/DiagnosticsToolPrebuilt.apk
-      - product/priv-app/HardwareInfo/HardwareInfo.apk
-      - product/priv-app/HelpRtcPrebuilt/HelpRtcPrebuilt.apk
-      - product/priv-app/MaestroPrebuilt/MaestroPrebuilt.apk
-      - product/priv-app/OdadPrebuilt/OdadPrebuilt.apk
-      - product/priv-app/OTAConfigNoZeroTouchPrebuilt/OTAConfigNoZeroTouchPrebuilt.apk
-      - product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk
-      - product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk
-      - product/priv-app/SCONE/SCONE.apk
-      - product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk
-      - product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk
-      - product/priv-app/Showcase/Showcase.apk
-      - product/priv-app/ScribePrebuilt/ScribePrebuilt.apk
-      - product/priv-app/TipsPrebuilt/TipsPrebuilt.apk
-      - product/priv-app/TurboPrebuilt/TurboPrebuilt.apk
-      - system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
-      - system_ext/app/Flipendo/Flipendo.apk
+      - system/apex/com.google.mainline.primary.libs.apex
       - system_ext/etc/init/init.sota.rc
       - system_ext/etc/permissions/com.android.omadm.radioconfig.xml
       - system_ext/etc/permissions/com.google.android.factoryota.xml
       - system_ext/etc/permissions/com.verizon.llkagent.xml
       - system_ext/etc/permissions/obdm_permissions.xml
       - system_ext/etc/permissions/vzw_mvs_permissions.xml
-      - system_ext/priv-app/FactoryOta/FactoryOta.apk
-      - system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk
-      - system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk
-      - system_ext/priv-app/OsloFeedback/OsloFeedback.apk
-      - system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk
-      - system_ext/priv-app/QuickAccessWallet/QuickAccessWallet.apk
-      - system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk
-      - system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk
-      - system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
-      - system_ext/priv-app/UvExposureReporter/UvExposureReporter.apk
-      - system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk
-      - system_ext/priv-app/YadaYada/YadaYada.apk
       - vendor/etc/default-permissions/default-permissions_talkback.xml
       - vendor/etc/fstab.gs101-fips
 
     prefix:
+      - odm_dlkm/
+      - odm/lib/modules
+      - product/fonts/
+      - product/media/
+      - product/overlay/
       - product/tts/google/
       - product/wallpaper/
+      - product/app/arcore/
+      - product/app/CalculatorGooglePrebuilt/
+      - product/app/CalendarGooglePrebuilt/
       - product/app/Chrome/
+      - product/app/Chrome-Stub/
+      - product/app/DevicePolicyPrebuilt/
+      - product/app/DeviceStatisticsService/
+      - product/app/DiagnosticsToolPrebuilt/
+      - product/app/Drive/
+      - product/app/GoogleContacts/
+      - product/app/GoogleContactsSyncAdapter/
+      - product/app/GoogleTTS/
+      - product/app/LatinIMEGooglePrebuilt/
+      - product/app/LocationHistoryPrebuilt/
+      - product/app/Maps/Maps.apk
+      - product/app/MarkupGoogle/
+      - product/app/MicropaperPrebuilt/
+      - product/app/ModuleMetadataGoogle/
+      - product/app/NgaResources/
+      - product/app/Photos/
       - product/app/PixelThemesStub
       - product/app/PixelWallpapers
+      - product/app/PlayAutoInstallConfig/
+      - product/app/PrebuiltDeskClockGoogle/
+      - product/app/PrebuiltGmail/
       - product/app/PrebuiltGoogleAdservicesTvp/
+      - product/app/PrebuiltGoogleTelemetryTvp/
+      - product/app/SafetyRegulatoryInfo/
+      - product/app/SoundAmplifierPrebuilt/
+      - product/app/SoundPickerPrebuilt/
+      - product/app/talkback/
+      - product/app/TrichromeLibrary-Stub/
+      - product/app/TrichromeLibrary/
+      - product/app/Tycho/
+      - product/app/Videos/
+      - product/app/VoiceAccessPrebuilt/
       - product/app/VZWAPNLib/
       - product/app/WallpapersBReel
+      - product/app/WebViewGoogle-Stub/
+      - product/app/WebViewGoogle/
+      - product/app/YouTube/
+      - product/app/YouTubeMusicPrebuilt/
       - product/etc/security/
+      - product/etc/sysconfig/preinstalled-packages-
+      - product/priv-app/AmbientSensePrebuilt/
+      - product/priv-app/AndroidAutoStubPrebuilt/
+      - product/priv-app/BetaFeedback/
+      - product/priv-app/BetterBug/
+      - product/priv-app/CarrierMetrics/
+      - product/priv-app/ConfigUpdater/
       - product/priv-app/ConnMO/
       - product/priv-app/DCMO/
       - product/priv-app/DiagMon/
+      - product/priv-app/DiagnosticsToolPrebuilt/
       - product/priv-app/DMService/
       - product/priv-app/Dreamliner
+      - product/priv-app/FilesPrebuilt/
+      - product/priv-app/GCS/
       - product/priv-app/GoogleCamera/
+      - product/priv-app/GoogleDialer/
+      - product/priv-app/GoogleOneTimeInitializer/
+      - product/priv-app/GoogleRestorePrebuilt/
+      - product/priv-app/HardwareInfo/
       - product/priv-app/HealthConnectPrebuilt/
+      - product/priv-app/HelpRtcPrebuilt/
+      - product/priv-app/MaestroPrebuilt/
+      - product/priv-app/OdadPrebuilt/
+      - product/priv-app/OTAConfigNoZeroTouchPrebuilt/
+      - product/priv-app/PartnerSetupPrebuilt/
+      - product/priv-app/Phonesky/
+      - product/priv-app/PixelLiveWallpaperPrebuilt/
+      - product/priv-app/PrebuiltBugle/
+      - product/priv-app/PrebuiltGmsCore/
+      - product/priv-app/RecorderPrebuilt/
+      - product/priv-app/SafetyHubPrebuilt/
+      - product/priv-app/SCONE/
+      - product/priv-app/SecurityHubPrebuilt/
+      - product/priv-app/SettingsIntelligenceGooglePrebuilt/
+      - product/priv-app/SetupWizardPrebuilt/
+      - product/priv-app/Showcase/
+      - product/priv-app/ScribePrebuilt/
+      - product/priv-app/TipsPrebuilt/
+      - product/priv-app/TurboPrebuilt/
+      - product/priv-app/Velvet/
+      - product/priv-app/WellbeingPrebuilt/
+      - product/usr/share/ime/google/
+      - product/usr/srec/
+      - system/apex/
+      - system/fonts/
+      - system/media/
+      - system/overlay/
       - system/app/BluetoothMigrationForBeta3User/
+      - system/app/CaptivePortalLoginGoogle/
       - system/app/GoogleBluetoothLegacyMigration/
+      - system/app/GoogleExtShared/
+      - system/app/GooglePrintRecommendationService/
+      - system/priv-app/DocumentsUIGoogle/
+      - system/priv-app/GooglePackageInstaller/
+      - system/priv-app/NetworkPermissionConfigGoogle/
+      - system/priv-app/NetworkStackGoogle/
+      - system/priv-app/TagGoogle/
+      - system_ext/apex/
+      - system_ext/fonts/
+      - system_ext/media/
+      - system_ext/overlay/
       - system/etc/security/cacerts/
+      - system_ext/app/EmergencyInfoGoogleNoUi/
+      - system_ext/app/Flipendo/
       - system_ext/priv-app/FactoryOtaPrebuilt/
+      - system_ext/priv-app/GoogleFeedback/
+      - system_ext/priv-app/GoogleServicesFramework/
       - system_ext/priv-app/MyVerizonServices/
+      - system_ext/priv-app/NexusLauncherRelease/
+      - system_ext/priv-app/OsloFeedback/
+      - system_ext/priv-app/PixelSetupWizard/
+      - system_ext/priv-app/QuickAccessWallet/
+      - system_ext/priv-app/SettingsGoogle/
+      - system_ext/priv-app/StorageManagerGoogle/
+      - system_ext/priv-app/SystemUIGoogle/
       - system_ext/priv-app/TurboAdapter/
+      - system_ext/priv-app/UvExposureReporter/
+      - system_ext/priv-app/WallpaperPickerGoogleRelease/
+      - system_ext/priv-app/YadaYada/
+      - vendor_dlkm/
+      - vendor/fonts/
+      - vendor/overlay/
+      - vendor/lib/modules
+
+    suffix:
+      - .art
+      - .odex
+      - .prof
+      - .vdex
 
   overlay_keys:
     match:
@@ -242,6 +317,10 @@ filters:
     substring:
       - elmyra
 
+  overlay_values:
+    substring:
+      - com.google.android.gms
+
   presigned:
     match:
       - product/app/arcore/arcore.apk
@@ -306,16 +385,23 @@ filters:
     match:
       - debug.sf.enable_egl_image_tracker
       - keyguard.no_require_sim
+      - ro.adb.secure
       - ro.apex.updatable
+      - ro.atrace.core.services
       - ro.boot.vendor.overlay.theme
       - ro.com.android.prov_mobiledata
+      - ro.com.google.clientidbase
       - ro.control_privapp_permissions
+      - ro.error.receiver.system.apps
       - ro.llkd.enable
+      - ro.opa.eligible_device
       - ro.surface_flinger.supports_background_blur
       - ro.vendor.aware_available
 
     prefix:
       - log.tag.
+      - ro.com.google.ime.
+      - ro.storage_manager.
 
   sepolicy_dirs:
     match:
@@ -325,10 +411,6 @@ filters:
       - hardware/google/pixel-sepolicy/ramdump
       - hardware/google/pixel-sepolicy/sota_app/system_ext
       - hardware/google/pixel-sepolicy/turbo_adapter
-
-includes:
-  - ../../snippets/gms.yml
-  - ../../snippets/mainline_system.yml
 
 platform:
   sepolicy_dirs:
