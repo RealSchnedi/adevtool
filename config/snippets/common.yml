@@ -76,7 +76,6 @@ filters:
       - product/app/PrebuiltGoogleTelemetryTvp/
       - product/app/SafetyRegulatoryInfo/
       - product/app/SoundAmplifierPrebuilt/
-      - product/app/SoundPickerPrebuilt/
       - product/app/talkback/
       - product/app/TrichromeLibrary-Stub/
       - product/app/TrichromeLibrary/
@@ -124,7 +123,6 @@ filters:
       - product/priv-app/SafetyHubPrebuilt/
       - product/priv-app/SCONE/
       - product/priv-app/SecurityHubPrebuilt/
-      - product/priv-app/SettingsIntelligenceGooglePrebuilt/
       - product/priv-app/SetupWizardPrebuilt/
       - product/priv-app/Showcase/
       - product/priv-app/ScribePrebuilt/
