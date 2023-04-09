@@ -191,6 +191,7 @@ filters:
       - android:bool/config_enableSecondaryLocationTimeZoneProvider
       - android:bool/config_bugReportHandlerEnabled
       - android:bool/config_defaultRingtonePickerEnabled
+      - android:bool/config_pinnerCameraApp
       - android:bool/config_pinnerHomeApp
       - android:bool/config_profcollectReportUploaderEnabled
       - android:bool/config_sendPackageName
@@ -260,6 +261,7 @@ filters:
       - com.android.systemui:bool/config_wlc_support_enabled
       - com.android.systemui:drawable/ic_qs_branded_vpn
       - com.android.systemui:drawable/stat_sys_branded_vpn
+      - com.android.systemui:string/config_cameraProtectionExcludedPackages
       - com.android.systemui:string/config_dockComponent
       - com.android.systemui:string/config_screenshotEditor
       - com.android.systemui:string-array/config_controlsPreferredPackages
