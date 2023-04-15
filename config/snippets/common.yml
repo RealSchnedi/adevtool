@@ -30,6 +30,7 @@ filters:
       - product/framework/com.google.android.dialer.support.jar
       - product/framework/libhwinfo.jar
       - system/apex/com.google.mainline.primary.libs.apex
+      - system/etc/permissions/privapp-permissions-google.xml
       - system_ext/etc/init/init.sota.rc
       - system_ext/etc/permissions/com.android.omadm.radioconfig.xml
       - system_ext/etc/permissions/com.google.android.factoryota.xml
