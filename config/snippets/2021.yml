@@ -4,6 +4,11 @@ filters:
       - vendor/lib/libOpenCL.so
       - vendor/lib64/libOpenCL.so
 
+  files:
+    match:
+      - system_ext/etc/permissions/com.google.android.camera.experimental2022_system.xml
+      - system_ext/framework/com.google.android.camera.experimental2022_system.jar
+
   partitions:
     match:
       - abl
