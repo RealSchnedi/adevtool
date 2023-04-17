@@ -407,6 +407,7 @@ filters:
   sepolicy_dirs:
     match:
       - device/google/gs101-sepolicy/whitechapel/vendor/google
+      - device/google/gs101-sepolicy/whitechapel/vendor/google/exo_camera_injection
       - hardware/google/pixel-sepolicy/flipendo
       - hardware/google/pixel-sepolicy/googlebattery
       - hardware/google/pixel-sepolicy/ramdump
