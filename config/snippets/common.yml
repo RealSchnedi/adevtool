@@ -128,7 +128,6 @@ filters:
       - product/priv-app/ScribePrebuilt/
       - product/priv-app/TipsPrebuilt/
       - product/priv-app/TurboPrebuilt/
-      - product/priv-app/Velvet/
       - product/priv-app/WellbeingPrebuilt/
       - product/usr/share/ime/google/
       - product/usr/srec/
