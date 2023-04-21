@@ -27,7 +27,6 @@ filters:
       - product/etc/permissions/features-verizon.xml
       - product/etc/sysconfig/allowlist_com.android.omadm.service.xml
       - product/etc/sysconfig/dreamliner.xml
-      - product/framework/com.google.android.dialer.support.jar
       - product/framework/libhwinfo.jar
       - system/apex/com.google.mainline.primary.libs.apex
       - system/etc/permissions/privapp-permissions-google.xml
@@ -105,7 +104,6 @@ filters:
       - product/priv-app/FilesPrebuilt/
       - product/priv-app/GCS/
       - product/priv-app/GoogleCamera/
-      - product/priv-app/GoogleDialer/
       - product/priv-app/GoogleOneTimeInitializer/
       - product/priv-app/GoogleRestorePrebuilt/
       - product/priv-app/HardwareInfo/
