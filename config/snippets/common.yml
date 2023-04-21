@@ -60,7 +60,6 @@ filters:
       - product/app/GoogleContacts/
       - product/app/GoogleContactsSyncAdapter/
       - product/app/GoogleTTS/
-      - product/app/LatinIMEGooglePrebuilt/
       - product/app/LocationHistoryPrebuilt/
       - product/app/Maps/Maps.apk
       - product/app/MarkupGoogle/
