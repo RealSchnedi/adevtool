@@ -90,7 +90,6 @@ filters:
       - product/etc/security/
       - product/etc/sysconfig/preinstalled-packages-
       - product/priv-app/AmbientSensePrebuilt/
-      - product/priv-app/AndroidAutoStubPrebuilt/
       - product/priv-app/BetaFeedback/
       - product/priv-app/BetterBug/
       - product/priv-app/CarrierMetrics/
